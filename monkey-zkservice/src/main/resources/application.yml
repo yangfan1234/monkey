@@ -1,0 +1,28 @@
+
+# 服务端口
+server:
+  port: 9901
+
+monkey:
+  home:
+    zk:
+      #zk连接信息ip:port
+      conn: 192.168.1.106:2181
+      #zk连接超时时间ms
+      timeout: 20000
+      #项目启动后是否自动注册到zk,不设置默认自动注册
+      autoRegistry: true
+      #项目注册到zk的路径
+      registryName: /monkey/zkService
+      #项目注册到zk的数据
+      registryData: zookeeperService@192.168.1.105:9901
+
+spring:
+  application:
+    name: monkey-zkservice
+  dubbo:
+    server: false
+    registry: zookeeper://192.168.1.106:2181
+    protocol:
+      name: dubbo
+      port: 20880

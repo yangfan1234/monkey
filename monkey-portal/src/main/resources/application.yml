@@ -1,0 +1,17 @@
+# Tomcat
+server:
+  tomcat:
+    max-threads: 1000
+    min-spare-threads: 10
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: monkey-portal
+  dubbo:
+    server: true
+    registry: zookeeper://192.168.1.106:2181
+
+
