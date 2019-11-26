@@ -1,4 +1,4 @@
-package com.monkey.home.portal;
+package com.monkey.home;
 
 import com.alibaba.dubbo.spring.boot.annotation.EnableDubboConfiguration;
 import org.springframework.boot.SpringApplication;

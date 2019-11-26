@@ -1,5 +1,6 @@
 package com.monkey.home.portal;
 
+import com.monkey.home.MonkeyPortalApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 

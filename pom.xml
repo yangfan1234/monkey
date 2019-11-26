@@ -20,6 +20,7 @@
         <module>monkey-zkservice</module>
         <module>monkey-zk</module>
         <module>monkey-api</module>
+        <module>monkey-redis</module>
     </modules>
 
     <properties>
@@ -29,6 +30,9 @@
         <dubbo.version>2.0.0</dubbo.version>
         <zkclient.version>0.11</zkclient.version>
         <zookeeper.version>3.5.5</zookeeper.version>
+        <jedis.version>3.1.0</jedis.version>
+        <commons-pool2.version>2.6.2</commons-pool2.version>
+        <redisson.version>3.6.5</redisson.version>
     </properties>
 
     <dependencies>

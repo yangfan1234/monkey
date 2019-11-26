@@ -18,7 +18,7 @@ import java.util.List;
 @RequestMapping("serviceMessage")
 public class ServiceMessageController {
 
-    @Reference(version = "1.0.0")
+    @Reference(version = "1.0.0", lazy = true)
     private INodesDataService nodesDataService;
 
     @RequestMapping("serviceList")

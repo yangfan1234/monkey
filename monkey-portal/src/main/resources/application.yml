@@ -12,6 +12,27 @@ spring:
     name: monkey-portal
   dubbo:
     server: true
-    registry: zookeeper://192.168.1.106:2181
+    registry: zookeeper://192.168.1.117:2181
+#  redis:
+    #host: 192.168.1.106
+    #port: 6380
+#    sentinel:
+#      master: mymaster
+#      nodes: 192.168.1.117:26379,192.168.1.116:26379,192.168.1.115:26379
+#    database: 0
+#    timeout: 3000
+#    lettuce:
+#      pool:
+#        max-idle: 50
+#        min-idle: 10
+#        max-active: 100
+#        max-wait: 1000
+monkey:
+  home:
+    redis:
+      mode: single
+#      masterName: mymaster
+#      nodes: 192.168.1.117:6379,192.168.1.117:6380,192.168.1.116:6379,192.168.1.116:6380,192.168.1.115:6379,192.168.1.115:6380
+      singleAddr: 192.168.1.117:6379
 
 
