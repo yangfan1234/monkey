@@ -26,7 +26,7 @@
     <properties>
         <java.version>1.8</java.version>
         <monkey.version>0.0.1-SNAPSHOT</monkey.version>
-        <commons.version>3.7</commons.version>
+        <commons.version>3.18.0</commons.version>
         <dubbo.version>2.0.0</dubbo.version>
         <zkclient.version>0.11</zkclient.version>
         <zookeeper.version>3.5.5</zookeeper.version>
